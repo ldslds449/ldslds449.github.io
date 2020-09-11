@@ -6,7 +6,7 @@
   <link href="http://ldslds449.github.io/atom.xml" rel="self"/>
   
   <link href="http://ldslds449.github.io/"/>
-  <updated>2020-09-10T08:59:43.834Z</updated>
+  <updated>2020-09-11T06:00:15.731Z</updated>
   <id>http://ldslds449.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>TEST</title>
+    <link href="http://ldslds449.github.io/2020/09/11/TEST/"/>
+    <id>http://ldslds449.github.io/2020/09/11/TEST/</id>
+    <published>2020-09-11T05:59:47.000Z</published>
+    <updated>2020-09-11T06:00:15.731Z</updated>
+    
+    <content type="html"><![CDATA[<p>C++</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;C++&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="C++" scheme="http://ldslds449.github.io/tags/C/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>

@@ -18,4 +18,13 @@
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
+  <entry>
+    <title>TEST</title>
+    <url>/2020/09/11/TEST/</url>
+    <content><![CDATA[<p>C++</p>
+]]></content>
+      <tags>
+        <tag>C++</tag>
+      </tags>
+  </entry>
 </search>
