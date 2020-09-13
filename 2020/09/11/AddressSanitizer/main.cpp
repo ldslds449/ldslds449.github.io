@@ -28,7 +28,11 @@ void case3(){
 }
 
 int main(){
-  // case1();
-  // case2();
+#ifdef CASE1
+  case1();
+#elif defined CASE2
+  case2();
+#elif defined CASE3
   case3();
+#endif
 }
