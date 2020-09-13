@@ -6,7 +6,7 @@
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>常常在寫程式的時候，發生 out of bound 都不知道，只能等到看到 Segmentation Fault 才知道錯誤。</p>
 <p>而其中就算知道錯誤了，也找不出來錯誤在哪裡，一般都是用 <code>-g + gdb</code> 來找出錯誤的地方，但我有遇過一次是 gdb 報錯的地方在 malloc 的地方，檢查了很多遍也找不出來錯誤的地方 QAQ。</p>
 <p>之後靠著 AddressSanitizer 才找出正確錯誤的地方。</p>
-<h1 id="AddressSanitizer"><a href="#AddressSanitizer" class="headerlink" title="AddressSanitizer"></a>AddressSanitizer</h1><p><a href="https://github.com/google/sanitizers">github</a></p>
+<h1 id="AddressSanitizer"><a href="#AddressSanitizer" class="headerlink" title="AddressSanitizer"></a>AddressSanitizer</h1><p><a href="https://github.com/google/sanitizers">[github]</a></p>
 <p>以下使用 <code>gcc</code> 來介紹  </p>
 <p>根據 github 說明，gcc 只要版本 &gt;= 4.8 之後就內建 AddressSanitizer，當然你要自己 build 也可以。</p>
 <h2 id="使用方式"><a href="#使用方式" class="headerlink" title="使用方式"></a>使用方式</h2><p>你只需要在編譯的時候加上 <code>-fsanitize=address</code> 。</p>
