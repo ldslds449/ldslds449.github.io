@@ -56,7 +56,7 @@
       </tags>
   </entry>
   <entry>
-    <title>ImageRotate</title>
+    <title>圖片簡單旋轉 - Image Rotate</title>
     <url>/2020/09/16/ImageRotate/</url>
     <content><![CDATA[<h1 id="圖片旋轉"><a href="#圖片旋轉" class="headerlink" title="圖片旋轉"></a>圖片旋轉</h1><p>在這邊紀錄一下簡單的圖片旋轉方式。</p>
 <h2 id="旋轉矩陣"><a href="#旋轉矩陣" class="headerlink" title="旋轉矩陣"></a>旋轉矩陣</h2><p>首先先介紹旋轉矩陣：$\begin{bmatrix}cos\theta &amp; -sin\theta \\ sin\theta &amp; cos\theta\end{bmatrix}$ 其中，$\theta$為旋轉的角度。  </p>
