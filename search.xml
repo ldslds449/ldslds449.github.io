@@ -81,17 +81,21 @@
 <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">rotate_45</span>(<span class="hljs-params">img</span>):</span>
   <span class="hljs-comment"># create a empty image</span>
   new_img = np.zeros(img.shape, np.uint8)
+
   <span class="hljs-comment"># get the size of the image</span>
   H, W = img.shape[:<span class="hljs-number">2</span>]
   H_2 = int(H/<span class="hljs-number">2</span>)
   W_2 = int(W/<span class="hljs-number">2</span>)
+
   <span class="hljs-comment"># precalculate the √2/2</span>
   sqrt_2_div_2 = math.sqrt(<span class="hljs-number">2</span>)/<span class="hljs-number">2</span>
+
   <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(H):
     <span class="hljs-keyword">for</span> j <span class="hljs-keyword">in</span> range(W):
       <span class="hljs-comment"># compute the location of the original image</span>
       x = int(sqrt_2_div_2*(i - H_2) - sqrt_2_div_2*(j - W_2))
       y = int(sqrt_2_div_2*(i - H_2) + sqrt_2_div_2*(j - W_2))
+      
       <span class="hljs-comment"># skip the location that out of the image</span>
       <span class="hljs-keyword">if</span> x + H_2 &lt; H <span class="hljs-keyword">and</span> y + W_2 &lt; W <span class="hljs-keyword">and</span> x + H_2 &gt;= <span class="hljs-number">0</span> <span class="hljs-keyword">and</span> y + W_2 &gt;= <span class="hljs-number">0</span>:
         <span class="hljs-comment"># put the value of the location computed before to the new image location</span>
